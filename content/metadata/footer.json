@@ -1,20 +1,50 @@
 {
     "title": "Handcrafted by Afnizar Nur Ghifari",
-     "items": [{
-            "class": "fa fa-send",
-            "url": "mailto:afnizarhilmi@gmail.com"
+    "items": [
+        {
+            "class": "fa fa-facebook-square",
+            "url": "#"
         },
         {
-            "class": "fa fa-twitter",
-            "url": "http://twitter.com/flamekaizar"
+            "class": "fa fa-twitter-square",
+            "url": "#"
         },
         {
-            "class": "fa fa-dribbble",
-            "url": "http://dribbble.com/flamekaizar"
+            "class": "fa fa-google-plus-square",
+            "url": "#"
         },
         {
-            "class": "fa fa-behance",
-            "url": "http://behance.com/flamekaizar"
+            "class": "fa fa-youtube-play",
+            "url": "#"
+        },
+        {
+            "class": "fa fa-flickr",
+            "url": "#"
+        },
+        {
+            "class": "fa fa-skype",
+            "url": "#"
         }
-    ]
+    ],
+    "info": {
+        "class": "footer-logo",
+        "name": "This is Photoshops version  of Lorem Ipsum "
+    },
+    "copyRight": [
+        {
+            "url": "",
+            "title": "&copy; Copyright 2015 KREO.",
+            "name": ""
+        },
+        {
+            "url": "http://www.styleshout.com/",
+            "title": "Design by",
+            "name": "Styleshout."
+        }
+    ],
+    "goTo": {
+        "class": "fa fa-angle-up",
+        "url": "#hero",
+        "title": "Back to Top"
+    }
 }

@@ -1,10 +1,12 @@
 {
-    "title": "DRACO",
-    "items": [
-        { "class": "active", "url": "#about", "title": "About" },
-        { "class": "", "url": "#experiences", "title": "Experiences" },
-        { "class": "", "url": "#achievements", "title": "Echievements" },
-        { "class": "", "url": "#skills", "title": "Skills" }
-    ]
+    "title": "Kreo10",
+     "list":[{"url":"#nav-wrap","title":"Show navigation","name":"Menu"},{"url":"#","title":"Hidenavigation","name":"Menu"}],
+              "items":[{"classLi":"","classA":"smoothscroll","url":"#hero","title":"Home."},
+               {"classLi":"current","classA":"smoothscroll","url":"#portfolio","title":"Works."},
+               {"classLi":"","classA":"smoothscroll","url":"#services","title":"Services."},
+               {"classLi":"","classA":"smoothscroll","url":"#about","title":"About."},
+               {"classLi":"","classA":"smoothscroll","url":"#contact","title":"Contact."}
+              ],
+              "headerSocial":[{"url":"#","class":"fa fa-facebook"},{"url":"#","class":"fa fa-twitter"},{"url":"#","class":"fa fa-google-plus"}]
 
 }

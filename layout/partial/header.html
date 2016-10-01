@@ -7,7 +7,7 @@
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Kreo</title>
+	<title>{{title}}</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 
@@ -40,32 +40,30 @@
    	<div class="row">
 
 	      <div class="logo">
-	         <a href="index.html">Kreo</a>
+	         <a href="#">{{title}}</a>
 	      </div>
 
 	      <nav id="nav-wrap">         
-	         
-	         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
-	         	<span class="menu-icon">Menu</span>
+	         {{#each menu.list}}
+	         <a class="mobile-btn" href="{{url}}" title="{{title}}">
+	         	<span class="menu-icon">{{name}}</span>
 	         </a>
-         	<a class="mobile-btn" href="#" title="Hide navigation">
-         		<span class="menu-icon">Menu</span>
-         	</a>            
-
+             {{/each}}
+         	         
+             
 	         <ul id="nav" class="nav">
-	            <li><a class="smoothscroll" href="#hero">Home.</a></li>
-		         <li class="current"><a class="smoothscroll" href="#portfolio">Works.</a></li>
-	            <li><a class="smoothscroll" href="#services">Services.</a></li>
-	            <li><a class="smoothscroll" href="#about">About.</a></li>
-	            <li><a class="smoothscroll" href="#contact">Contact.</a></li>
+                {{#each menu.items}}
+	            <li class="{{classLi}}"><a class="{{classA}}" href="{{url}}">{{title}}</a></li>
+                {{/each}}
+		        
 	         </ul> <!-- end #nav -->
 
 	      </nav> <!-- end #nav-wrap -->
 
 	      <ul class="header-social">
-	        	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-	        	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-	        	<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               {{#each menu.headerSocial}}
+	        	<li><a href="{{url}}"><i class="{{class}}"></i></a></li>
+	            {{/each}}
 	      </ul>      
 
 	   </div>
