@@ -38,5 +38,61 @@
         "validations": [],
         "viewOnly": false,
         "required": false
+    },
+    {
+        "name": "hero-slider",
+        "displayName": "hero-slider",
+        "type": "Object",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "heroSlider",
+        "displayName": "heroSlider",
+        "type": "Object",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "portfolio",
+        "displayName": "portfolio",
+        "type": "Object",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "services",
+        "displayName": "services",
+        "type": "Object",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "about",
+        "displayName": "about",
+        "type": "Object",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "team",
+        "displayName": "team",
+        "type": "Object",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "testimonials",
+        "displayName": "testimonials",
+        "type": "Array",
+        "validations": [],
+        "required": false
+    },
+    {
+        "name": "contact",
+        "displayName": "contact",
+        "type": "Object",
+        "validations": [],
+        "required": false
     }
 ]
